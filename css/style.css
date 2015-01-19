@@ -93,7 +93,7 @@ a:hover {
 }
   
 #footer p {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 40%
 }
