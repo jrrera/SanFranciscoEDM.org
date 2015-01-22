@@ -106,3 +106,29 @@ font: 11px/1.4em Arial, sans-serif; }
 vertical-align:middle; margin-bottom: 3px; }
 .right { margin: 0.5em 0pt 0.5em 0.8em; float:right; }
 .left { margin: 0.5em 0.8em 0.5em 0; float:left; }    
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .adsense-ad {
+    display: none;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  .adsense-ad {
+    display: none;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  .adsense-ad {
+    display: none !important;
+  }
+}
