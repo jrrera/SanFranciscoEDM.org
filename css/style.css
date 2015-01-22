@@ -113,22 +113,12 @@ vertical-align:middle; margin-bottom: 3px; }
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
   .adsense-ad {
-    display: none;
-  }
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-  .adsense-ad {
-    display: none;
-  }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-  .adsense-ad {
     display: none !important;
+  }
+
+  .page-header img {
+    width: 100%;
+    position: static;
+    margin-top: 100px;
   }
 }
